@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bicycle</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/uikit.min.css">
+		<link rel="stylesheet" href="assets/style.css">
+		<script src="assets/uikit.min.js"></script>
+		<script src="assets/main.js"></script>
+	</head>
+	<body>
+	
+		<!-- HEADER -->
+	
+		<header class="header">
+			<ul class="main-menu header__main-menu flex-row flex-between font-xs text-upper" id="mainNav">
+				<li class="main-menu__item"><a href="#" class="main-menu__link font-black">about us</a></li>
+				<li class="main-menu__item"><a href="#" class="main-menu__link font-black">work</a></li>
+				<li class="main-menu__item">
+					<div class="logo"><img src="assets/logo.png" alt="" class="logo__img"></div>
+				</li>
+				<li class="main-menu__item"><a href="#" class="main-menu__link font-black">shop</a></li>
+				<li class="main-menu__item"><a href="#" class="main-menu__link font-black">contact</a></li>
+			</ul>
+			
+			<div class="logo main-logo logo-hidden"><img src="assets/logo.png" alt="" class="logo__img main-logo__img"></div>
+			
+			<div class="menu-icon" onclick="menuChange(this);showNav()">
+				<div class="menu-icon__bar1"></div>
+				<div class="menu-icon__bar2"></div>
+				<div class="menu-icon__bar3"></div>
+			</div>
+			
+		</header>
+		
+		
+		<div class="main">
+		
+		<!-- GRID -->
+			
+			<div class="article bg-gray">
+				<img class="article__icon" alt="img" src="assets/icon/icon.png">
+				<h2 class="article__heading text-heading text-bold">A NEW GENERATION OF VINTAGE BIKE</h2>
+				<p class="article__paragraph text-paragraph article__paragraph_padding-bottom_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+			</div>
+			
+			<div class="article">
+			
+				<div class="article__container flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500; repeat: true">
+				
+					<div class="content size-7 bg-content">
+						<img src="assets/article_img/layer-10.png" alt="img" class="content__img height_full">
+						<img src="assets/icon/logo.png" alt="img" class="content__logo content__logo_position-top">
+					</div>
+					
+
+					<div class="content size-3">
+						<div class="content__inner content__inner_arrow">
+							<img src="assets/icon/icon1.png" alt="img" class="content__icon">
+							<h2 class="content__heading font-l text-upper">vintage Oliva</h2>
+							<p class="content__paragraph text-paragraph font-m font-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+						</div>
+						<div class="content__inner content__inner_size_s">
+							<img src="assets/article_img/layer-11.png" alt="img" class="content__img">
+						</div>
+					</div>
+				</div>
+				
+				<div class="article__container flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500; repeat: true">
+					
+					<div class="content size-3">
+						<div class="content__inner content__inner_arrow">
+							<img src="assets/icon/icon2.png" alt="img" class="content__icon">
+							<h2 class="content__heading font-l text-upper">La Boriosa</h2>
+							<p class="content__paragraph text-paragraph font-m font-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+						</div>
+						<div class="content__inner content__inner_size_s">
+							<img src="assets/article_img/layer-13.png" alt="alt" class="content__img bg-content">
+						</div>
+					</div>
+					
+					<div class="content size-7 bg-content">
+						<img src="assets/article_img/layer-12.png" alt="img" class="content__img height_full">
+						<img src="assets/icon/logo1.png" alt="" class="content__logo content__logo_position-top">
+					</div>
+					
+				</div>
+				
+				<div class="article__container flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500; repeat: true">
+					
+					<div class="content size-3 bg-content">
+						<img src="assets/article_img/layer-15.png" alt="img" class="content__img height_full">
+						<img src="assets/icon/logo2.png" alt="img" class="content__logo content__logo_position-top content__logo_position-left-small">
+					</div>
+					
+					<div class="content size-3">
+						<div class="content__inner content__inner_arrow">
+							<img src="assets/icon/icon4.png" alt="" class="content__icon">
+							<h2 class="content__heading font-l text-upper">retrò Bike - M. Hulot</h2>
+							<p class="content__paragraph text-paragraph font-m font-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+						</div>
+						<div class="content__inner content__inner_size_s">	
+							<img src="assets/article_img/layer-16.png" alt="img" class="content__img bg-content">
+						</div>
+					</div>
+					
+					<div class="content size-3 bg-content">
+						<img src="assets/article_img/layer-14.png" alt="img" class="content__img height_full">
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<!-- COMMENTS -->
+			
+			<div class="article bg-gray">
+				<div class="article__icon color-blue"><i class="fa fa-twitter fa-2x"></i></div>
+				<h2 class="article__heading font-l font-black">AOD New York  @aod  /  35 min</h2>
+				<p class="article__paragraph article__paragraph_padding-bottom_2 font-l text-italic font-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+			</div>
+			
+			<!-- GRID IMG -->
+			
+			<div class="article__container flex-row article__container_size" >
+				
+				<div class="content size-3 flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 300; repeat: true">
+					<div class="content__box content__box_size-5 comtent__box_width-240">
+						<img src="assets/article_img/layer-19.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+					<div class="content__box content__box_size-5 comtent__box_width-240">
+						<img src="assets/article_img/layer-21.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+					<div class="content__box content__box_size-1">
+						<img src="assets/article_img/layer-20.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+				</div>
+				
+				<div class="content size-3 flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 300; repeat: true">
+				
+					<div class="content__box content__box_size-5 comtent__box_width-480px">
+						<img src="assets/article_img/layer-22.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+					<div class="content__box content__box_size-5 comtent__box_width-480px">
+						<img src="assets/article_img/layer-25.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+				</div>
+				
+				<div class="content size-3 flex-row" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 300; repeat: true"> 
+				
+					<div class="content__box content__box_size-1">
+						<img src="assets/article_img/layer-23.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+					<div class="content__box content__box_size-5 comtent__box_width-240">
+						<img src="assets/article_img/layer-24.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+					<div class="content__box content__box_size-5 comtent__box_width-240">
+						<img src="assets/article_img/layer-26.png" alt="" class="content__img height_full">
+						<img src="assets/icon/shape-13.png" alt="" class="content__logo hidden">
+						<h3 class="content__heading font-s text-upper font-white hidden show">shop now</h3>
+						<div class="content__bg"></div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<!-- BUTTON -->
+			
+			<div class="article bg-black article_height_200">
+				<button type="button" class="article__button font-s font-white">DISCOVER THE SHOP</button>
+			</div>
+			
+			<div class="article">
+				<div class="logo article__logo"><img src="assets/logo.png" alt="img" class="logo__img"></div>
+				<p class="article__paragraph font-xl text-italic font-gray text-center">Stay on the saddle!</p>
+				<form action="" class="form">
+					<input type="text" class="form__input font-l text-italic font-gray" placeholder="enter your email... " required>
+					<input type="submit" class="form__button font-xl font-white" value="GO">
+				</form>
+			</div>
+			
+		</div>
+		
+		<!-- FOOTER -->
+		
+		<footer class="footer bg-gray">
+			<div class="block flex-row flex-around">
+			<div class="footer__container">
+				<p class="footer__heading font-s">AOD New York</p>
+				<p class="footer__paragraph font-s">2250 Lexington Avenue </p>
+				<p class="footer__paragraph font-s">New York, NY 10035  - info@domain.com</p>
+			</div>
+			<div class="footer__container flex-row flex-around">
+				<div class="box"><i class="footer__icon fa fa-twitter fa-2x" aria-hidden="true"></i></div>
+				<div class="box"><i class="footer__icon fa fa-facebook fa-2x" aria-hidden="true"></i></div>
+				<div class="box"><i class="footer__icon fa fa-pinterest fa-2x" aria-hidden="true"></i></div>
+			</div>
+			<div class="footer__container flex-row flex-around">
+				<p class="footer__paragraph">Handcrafted by</p>
+				<div class="logo"><img src="assets/icon/y-e-b-o-logo.png" alt="img" class="logo__img"></div>
+			</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
